@@ -1,0 +1,79 @@
+/* CSS with margins and label styles */
+@font-face {
+    font-family: "Terra Ignota W01 Regular";
+    src: url("https://db.onlinewebfonts.com/t/76da46bd9cc48e5fdf6fe3674323905d.eot");
+    src: url("https://db.onlinewebfonts.com/t/76da46bd9cc48e5fdf6fe3674323905d.eot?#iefix")format("embedded-opentype"),
+    url("https://db.onlinewebfonts.com/t/76da46bd9cc48e5fdf6fe3674323905d.woff2")format("woff2"),
+    url("https://db.onlinewebfonts.com/t/76da46bd9cc48e5fdf6fe3674323905d.woff")format("woff"),
+    url("https://db.onlinewebfonts.com/t/76da46bd9cc48e5fdf6fe3674323905d.ttf")format("truetype"),
+    url("https://db.onlinewebfonts.com/t/76da46bd9cc48e5fdf6fe3674323905d.svg#Terra Ignota W01 Regular")format("svg");
+}
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: black;
+    color: white;
+    font-family: "Terra Ignota W01 Regular";
+    font-size: 4.1rem;
+  }
+  
+  
+  .flex-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  h2 {
+    font-family: "Terra Ignota W01 Regular";
+    
+    margin-bottom: 0.5rem;
+    color: white;
+    font-size: 2.4rem;
+  }
+  
+  form input {
+    font-family: "Terra Ignota W01 Regular";
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+  }
+  input::placeholder{
+    color:#aaa;
+  }
+  .btn {
+    font-family: "Terra Ignota W01 Regular";
+    font-size: 1.8rem;
+    padding: 1rem 0;
+    width: 20rem;
+    text-align: center;
+    border: 0.1rem solid #56a5eb;
+    text-decoration: none;
+    color: #56a5eb;
+    background-color: white;
+    cursor: pointer;
+    transition: box-shadow 150ms, transform 150ms;
+    margin-bottom: 1rem; /* Add margin between buttons */
+  }
+  
+  .btn:hover {
+    box-shadow: 0 0.4rem 1.4rem 0 rgba(86, 185, 235, 0.5);
+    transform: translateY(-0.1rem);
+  }
+  
+  /* Disable button style */
+  .btn:disabled {
+    cursor: not-allowed;
+    box-shadow: none;
+    transform: none;
+  }
+  
+  

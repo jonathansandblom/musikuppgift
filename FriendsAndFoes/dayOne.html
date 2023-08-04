@@ -1,0 +1,92 @@
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Changa+One&display=swap" rel="stylesheet">
+<style>
+    /* Existing styles */
+    #länk {
+        visibility: hidden;
+    }
+</style>
+<style>
+    body{
+        background-color: black;
+        font-family: 'Changa One', cursive;
+    }
+
+</style>
+
+<div style= "position: relative; display: inline-block">
+    <canvas></canvas>
+    <div
+id="gameOver"
+style= "
+position: absolute;
+top: 0;
+bottom: 0;
+left:0;
+right: 0;
+display: none;
+align-items: center;
+justify-content: center;
+font-size: 72px;
+color: white;
+-webkit-text-stroke: 3px black;
+"
+>
+GAME OVER<br>
+
+    </div>
+    <div style="
+    position: absolute;
+    top:0;
+    right: 0;
+    width: 400px;
+    height: 80px;
+    background: linear-gradient(to left bottom, rgba(0,0,0,0.9), rgba(0,0,0,0),rgba(0,0,0,0));"></div>
+    <div style="
+    position: absolute;
+    top: 4px;
+    right: 8px;
+    font-size: 36px;
+    color: white;
+    -webkit-text-stroke: 2px black;
+    display: flex;
+    align-items: center;
+    "
+    >
+    <!--coins-->
+    <div style ="width: 200px;"> <div id="coins">POINTS: 0</div></div>
+    
+    <svg style ="width: 35px; color: red; margin-right: 6px;"
+     xmlns="http://www.w3.org/2000/svg" 
+     viewBox="0 0 20 20" 
+     fill="currentColor" 
+     >
+        <path d="M9.653 16.915l-.005-.003-.019-.01a20.759 20.759 0 01-1.162-.682 22.045 22.045 0 01-2.582-1.9C4.045 12.733 2 10.352 2 7.5a4.5 4.5 0 018-2.828A4.5 4.5 0 0118 7.5c0 2.852-2.044 5.233-3.885 6.82a22.049 22.049 0 01-3.744 2.582l-.019.01-.005.003h-.002a.739.739 0 01-.69.001l-.002-.001z" />
+      </svg>
+      
+        
+      
+      
+      
+      
+            <div id="hearts">3</div>
+        
+    </div>
+    <div id= "länk" style="visibility: hidden;"><a href="end.html">Skicka in din poäng!</a></div>
+    
+    
+</div>
+
+<script src="js/placementTilesData.js"></script>
+<script src="js/waypoints.js"></script>
+<script src="js/classes/Sprite.js"></script>
+<script src="js/classes/Building.js"></script>
+<script src="js/classes/Enemy.js"></script>
+<script src="js/classes/PlacementTile.js"></script>
+<script src="js/classes/Projectile.js"></script>
+<script src="js/index.js"></script>
+<script>
+    
+
+</script>
