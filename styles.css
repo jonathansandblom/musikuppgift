@@ -29,7 +29,7 @@ body {
 
 .typewriter {
     font-family: 'Terra Ignota W01 Regular', monospace;
-    font-size: 40px;
+    font-size: 30px;
     color: #fff;
     white-space: pre-wrap; /* Allow line breaks */
     max-width: 1000px; /* Limit the width of the typewriter box */
