@@ -137,7 +137,9 @@ function animate(){
             cancelAnimationFrame(animationId)
             localStorage.setItem('mostRecentScore', coins);
             const submitResultLink = document.getElementById('länk');
-        submitResultLink.style.visibility = 'visible';
+        
+            submitResultLink.style.visibility = 'visible';
+        
 
         // Set the styles for the link when it's game over
         submitResultLink.style.color = 'white';
@@ -153,8 +155,10 @@ function animate(){
         if(ClickTimes>ClicksMaximum){
             console.log('game over')
                 cancelAnimationFrame(animationId)
-                document.querySelector('#gameOver').style.display = 'flex'
                 alert("Du klickade precis " + ClickTimes + " gånger! Tornet gick sönder och alla invånare i byn tvingades fly!");
+                const submitResultLink = document.getElementById('länk');
+        
+            submitResultLink.style.visibility = 'visible';
                 
 
             
